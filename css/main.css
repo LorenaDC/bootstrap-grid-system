@@ -1,0 +1,158 @@
+/* Inserta tu código aqui */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header{
+	padding: 1%;
+}
+header h1{
+	margin-top: 0;
+}
+nav ul{
+	list-style: none;
+}
+.navegation ul li{
+	float: left;
+	padding: 0px 10px;
+}
+nav ul li a{
+	line-height: 36px;
+	text-decoration: none;
+	display: block;
+	color: #000;
+}
+nav ul li .separator{
+	line-height: 36px;
+}
+ul{
+	list-style: none;
+}
+.navbar .navbar-brand {
+  font-size: 35px;
+  color: #444;
+}
+.navbar .navbar-toggle .icon-bar {
+  background: #444;
+}
+.navbar .navbar-right .separator {
+  margin-top: 12px;
+  margin-left: 5px;
+}
+.navbar-header{
+	background-color: #c6c6c6;
+}
+.nav>li>a{
+	padding: 10px;
+	color: #000;
+}
+.menu{
+	padding-top: 4%;
+	background-color: #c6c6c6;
+}
+.navbar-loatorm{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.bg-title{
+	background-color: #8E8D89;
+	padding: 1%;
+	color: #fff;
+	font-size: 1.4em;
+	text-decoration: none;
+}
+.history{
+	padding: 5% 0%;
+	border-bottom: 1px solid #c6c6c6;
+}
+.history h4{
+	margin: 18px 0;
+}
+.web-zone{
+	padding: 0% 5%;
+	background-color: #000;
+	margin-right: 5%;
+	color: #fff;
+}
+.more{
+	color: #000;
+}
+.glyphicon-triangle-right{
+	margin-left: 10%;
+}
+.history img{
+	width: 100%;
+}
+.information .glyphicon-bookmark{
+	padding: 0% 7%;
+}
+.magazine{
+	background-color: #c6c6c6;
+	padding: 2% 4%;
+	margin: 3% 0%;
+}
+.magazine p{
+	padding-right: 10%;
+}
+.magazine h4{
+	margin: 2% 0%;
+}
+.box{
+	background-color: #c6c6c6;
+	margin: 4% 0%;
+	padding-bottom: 2%;
+}
+.box i{
+	margin-left: 30%;
+}
+.see-more{
+	color: #000;
+}
+.magazine h6{
+	padding-right: 30%;
+}
+.magazine a{
+	color: #000;
+}
+.information{
+	border-bottom: 1px solid #c6c6c6;
+}
+.information a{
+	color: #000;
+}
+.information-more{
+	border-top: 1px solid #c6c6c6;
+	margin-top: 4%;
+}
+.information-more a{
+	color: #000;
+	text-decoration: underline;
+}
+.media h5{
+	display: inline-block;
+	background-color: #c6c6c6;
+	padding: 30%;
+	margin: 0;
+	text-align: center;
+	color: #000;
+}
+.media-body{
+	padding-left: 3%;
+}
+.media h4{
+	margin: 0;
+}
+.media p{
+	margin-bottom: 2%;
+}
+hr{
+	border: 3px solid #303030;
+}
+footer a{
+	color: #000;
+}
+footer .col-xs-6{
+	height: 150px;
+}
+

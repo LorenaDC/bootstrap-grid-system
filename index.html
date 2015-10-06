@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap: Grid System</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3">
+          <h1>Site name</h1>
+        </div>
+        <div class="col-xs-9">
+          <nav class="navegation pull-right">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="glyphicon glyphicon-home"></i>
+                  <span>Noticias</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="glyphicon glyphicon-home"></i>
+                  <span>Enlaces RSS</span>
+                </a>
+              </li>
+              <li>
+                <div class="separator visible-lg">|</div>
+              </li>
+              <li>
+                <div class="search visible-lg">
+                  <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Ingresa tu busqueda">
+                    </div>
+                      <button type="submit" class="btn btn-default">Buscar</button>
+                  </form>
+                </div>
+              </li>
+            </ul>
+          </nav> 
+        </div>
+      </div>
+    <nav class="navbar visible-xs">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <span>Bienvenidos</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Actualidades</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>En directo</span>
+              </a>
+            </li><li>
+              <a href="#">
+                <span>Reporte financiero</span>
+              </a>
+            </li><li>
+              <a href="#">
+                <span>Nuestra oferta</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>De nosotros a usted</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="menu hidden-xs">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Bienvenidos</a></li>
+        <li role="presentation"><a href="#">Actualidades</a></li>
+        <li role="presentation"><a href="#">En directo</a></li>
+        <li role="presentation"><a href="#">Reporte financiero</a></li>
+        <li role="presentation"><a href="#">Nuestra oferta</a></li>
+        <li role="presentation"><a href="#">De nosotros a usted</a></li>
+      </ul>
+    </div>
+    </div>
+  </header>
+  <section class="welcome">
+    <div class="container">
+      <div class="row">
+        <div class=" col-lg-5 col-sm-7">
+          <div class="history">
+            <a class="bg-title" href="#">Historia destacada</a>         
+            <h5><strong>Articulo |</strong> Publicado el 09/10/15</h5>
+            <h4>Lorem ipsum et diligat gentris</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            <i class="glyphicon glyphicon-bookmark"><span><a class="more" href="#">Ver más...</a></span></i>
+            <i class="glyphicon glyphicon-triangle-right"><span><strong>Etiquetas:</strong> <u>Lorem</u> <u>ipsum</u> <u>diligat</u></span></i>
+          </div>
+          <div class="history">
+            <h5><a class="web-zone" href="#">Webzone</a><u>Preguntas</u> | Publicado el 05/10/15</h5>
+            <h4>Lorem ipsum et diligat gentris</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            <i class="glyphicon glyphicon-bookmark"><span><a class="more" href="#">Ver más...</a></span></i>
+            <i class="glyphicon glyphicon-triangle-right"><span><strong>Etiquetas:</strong> <u>Lorem</u> <u>ipsum</u> <u>diligat</u></span></i>
+          </div>
+          <div class="history">
+            <h5><strong>Artículo |</strong> Publicado el 09/10/15</h5>
+            <h4>Etiam lorem et suspira nostres</h4>
+            <img src="http://placehold.it/450x200">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            <i class="glyphicon glyphicon-bookmark"><span><a class="more" href="#">Ver más...</a></span></i>
+            <i class="glyphicon glyphicon-triangle-right"><span><strong>Etiquetas:</strong> <u>Lorem</u> <u>ipsum</u>
+            <u>diligat</u></span></i>
+          </div>
+          <div class="more">
+            <h4>Lorem ipsum et diligat gentris</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            <i class="glyphicon glyphicon-bookmark"><span><a class="more" href="#">Ver más...</a></span></i>
+            <i class="glyphicon glyphicon-triangle-right"><span><strong>Etiquetas:</strong> <u>Lorem</u> <u>ipsum</u> <u>diligat</u></span></i>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-5">
+          <div class="box">
+            <a class="bg-title" href="#">Historia destacada</a>
+              <!-- 4:3 aspect ratio -->
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/AQ0resnXCcE" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <h4>Claire dupond</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation.</p>
+            <h5>Publicado el 09/10/15 <i class="glyphicon glyphicon-bookmark"><span><a class="see-more" href="#">Ver más...</a></span></i></h5>
+          </div>
+        	<a class="bg-title" style="padding-right:20%" href="#">Agenda</a>
+          <div class="media">
+            <div class="media-left">
+              <a href="#"><h5>23 Enero</h5></a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading"><strong>Lorem ipsum et diligat</strong></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>De 23 a 28 de Diciembre</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#"><h5>23 Enero</h5></a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading"><strong>Lorem ipsum et diligat</strong></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>De 23 a 28 de Diciembre</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#"><h5>23 Enero</h5></a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading"><strong>Lorem ipsum et diligat</strong></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>De 23 a 28 de Diciembre</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#"><h5>23 Enero</h5></a>
+            </div>
+          <div class="media-body">
+            <h4 class="media-heading"><strong>Lorem ipsum et diligat</strong></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>De 23 a 28 de Diciembre</p>
+          </div>
+        </div>
+        <div class="information-more">
+        	<h3>Más imformación</h3>
+        	<a href="#">Localidades</a>
+        	<h4>Lorem ipsum et diligat</h4>
+        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        	<a href="#">Hospidemia</a>
+        	<h4>Lorem ipsum et diligat</h4>
+        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 visible-lg">
+        <div class="information">
+        	<h3>Más imformación</h3>
+        	<ul>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Finanzas y fiscalización</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Inversión y equipos</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Medio ambiente</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Habitat/Urbanismo</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Sanidad</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Social/ Servicios</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Transporte</a></li>
+        	</ul>
+        </div>
+        <div class="magazine">
+      		<h4>MAGAZINE</h4>
+      		<h4><strong>ECODEFI</strong></h4>
+      		<a href="#">ENQUETE</a>
+      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      		tempor incididunt ut labore et dolore magna aliqua.</p>
+      		<a href="#">PREGUNTAS</a>
+      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      	</div>
+      	<div class="magazine">
+      		<h4>MAGAZINE</h4>
+      		<h4><strong>ACCIONES COMUNES</strong></h4>
+      		<a href="#">ENQUETE</a>
+      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      		tempor incididunt ut labore et dolore magna aliqua.</p>
+      		<a href="#">PREGUNTAS</a>
+      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      	</div>
+        <div class="magazine">
+        	<h6><strong>Nueva generación de la Internet.</strong></h6>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <hr width="100%">
+      <div class="row">
+        <div class="col-xs-6 col-sm-3 col-lg-3">
+          <h5>Rubros</h5>
+      		<ul>
+      			<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Actualidades</a></li>
+      			<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>En directo</a></li>
+      			<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Reporte financiero</a></li>
+      			<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Nuestra oferta</a></li>
+      			<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>De Nosotros a ustedes</a></li>
+      		</ul>
+        </div>
+        <div class="col-lg-3 visible-lg">
+          <h5>Expertise</h5>
+        	<ul>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Finanzas y fiscalización</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Investigación y equipos</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Medio ambiente</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Habitat/Urbanismo</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Sanidad</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Social/Servicios</a></li>
+        		<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Transporte</a></li>
+        	</ul>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-lg-2">
+  		    <h5>Suscripción</h5>
+      		<ul>
+      			<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Todo el flujo</a></li>
+      			<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Flujo RSS para expertos</a></li>
+      			<li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Noticias</a></li>
+      		</ul>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-lg-2">
+          <h5>Nosotros</h5>
+    		  <ul>
+    		    <li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>¿Quienes somos?</a></li>
+    		    <li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Plan del sitio</a></li>
+    		    <li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Información legal</a></li>
+    		  </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-lg-2">
+          <h5>Contacto</h5>
+    		  <ul>
+    		    <li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Contactanos</a></li>
+    		    <li><a href="#"><i class="glyphicon glyphicon-bookmark"></i>Haga sus preguntas</a></li>
+    		  </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+	<!-- Incluir todos tus scripts apartir de este punto -->
+    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
